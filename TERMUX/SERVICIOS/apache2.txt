@@ -1,0 +1,50 @@
+
+INSTALACION 
+ * Instalacion de apache2
+    $apt install apache2
+    $apt install php-apache
+  
+COMANDOS
+  *Iniciar servicio
+    apachectl start
+  * Detener servicio
+    apachectl stop
+ 
+ Ingresar a navegador y escribir la url:
+ localhost:8080
+ 
+ NOTA : Todo esta por defecto como el puerto 8080, localhost, la ubicación de la
+ página.
+
+MODIFICACIONES
+@@ CAMBIAR UBICACIÓN DE PÁGINA
+  * Editar archivo y buscar DocumentRoot "" y <Directory "">
+  
+  * Cambiar la ruta que sale por la NUESTRA
+    $ DocumentRoot "Ruta/Carpeta"
+    $ <Directory "Ruta/Carpeta"
+  
+  * Guardar Ctrl + x | y | Enter
+  
+  * Reinicar servicio 
+    $ apachectl restart
+
+
+@@ PARA COLOCAR NUESTRA PÁGINA EN UNA RED LOCAL
+  * Primero establecer una ip estática en nuestro celular. Ejemplo 192.168.1.40
+  = IP
+  
+  * Editar archivo httpd.conf y buscar la línea Listen
+    $ nano /data/data/com.termux/files/usr/etc/apache2/httpd.conf
+    $ Editar línea arriba de Listen 8080 arriba sale IP:8080 y modificamos y
+    ponemos nuestra IP.
+    Y comentamos el Liste 8080 con #.
+    Guardar: Ctrl  + y | y | ENTER
+    
+  * Modificar httpd-vhosts 
+    $ nano /data/data/com.termux/files/usr/etc/apache2/extra/httpd-vhosts.conf
+    $ Buscar <VirtualHost *:8080> y modificar * borramos y colocamos nuestra IP.
+    
+  * Ingresar al nevegador y colocar
+    $ IP:8080
+    
