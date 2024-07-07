@@ -44,6 +44,9 @@ MODIFICACIONES
   * Modificar httpd-vhosts 
     $ nano /data/data/com.termux/files/usr/etc/apache2/extra/httpd-vhosts.conf
     $ Buscar <VirtualHost *:8080> y modificar * borramos y colocamos nuestra IP.
+  
+  * Reiniciar servicio
+    $ apachectl restart
     
   * Ingresar al nevegador y colocar
     $ IP:8080
