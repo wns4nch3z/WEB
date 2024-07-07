@@ -11,8 +11,8 @@ COMANDOS
   * Detener servicio
     apachectl stop
  
- Ingresar a navegador y escribir la url:
- localhost:8080
+   *Ingresar a navegador y escribir la url:
+    localhost:8080
  
  NOTA : Todo esta por defecto como el puerto 8080, localhost, la ubicación de la
  página.
