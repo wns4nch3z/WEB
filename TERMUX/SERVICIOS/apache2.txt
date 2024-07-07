@@ -3,6 +3,7 @@ INSTALACION
  * Instalacion de apache2
     $apt install apache2
     $apt install php-apache
+    $ apt install 
   
 COMANDOS
   *Iniciar servicio
