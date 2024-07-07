@@ -21,6 +21,8 @@ MODIFICACIONES
 @@ CAMBIAR UBICACIÓN DE PÁGINA
   * Editar archivo y buscar DocumentRoot "" y <Directory "">
   
+  * nano /data/data/com.termux/files/usr/etc/apache2/httpd.conf
+  
   * Cambiar la ruta que sale por la NUESTRA
     $ DocumentRoot "Ruta/Carpeta"
     $ <Directory "Ruta/Carpeta"
