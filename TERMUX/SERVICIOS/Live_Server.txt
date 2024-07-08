@@ -1,0 +1,47 @@
+
+INSTALACION DE SISTEMA
+  * Actualizar
+    $ apt update
+    $ apt upgrade
+  * Dar permisos para que ingrese a nuestro almacenamiento.
+    $ termux-setup-storage | Darle en CONFIRMAR
+
+TENER UN EDITOR DE CODIGO
+En mi caso Acode de la Play Store tiene su previsualizador.
+Cada vez que guardemos(ctrl + s) se actualizará el live server. 
+
+METODO 1
+
+  @ DESCARGAR LO NECESARIO 
+    $ pkg update
+    $ pkg upgrade
+    $ pkg install nodejs
+    $ npm install -g live-server
+
+  @ Ir a mi carpeta donde esta mi página web
+    $ cd /ruta/de/pagina-web
+
+  @ Ingresar una vez dentro de tu carpeta
+    $ live-server
+  
+      Se abrirá tu navegador predeterminado
+  
+METODO 2
+  @ DESCARGAR LO NECESARIO
+    $ pkg update
+    $ pkg upgrade
+    $ pkg install nodejs
+    $ npm install -g browser-sync
+    
+  @ Ir a mi carpeta donde se encuentra mi página web
+    $ cd /ruta/de/pagina-web
+    
+  @ Después usamos browser-sync
+    $ browser-sync start --server --files "/ruta/de/pagina-web" 
+    
+    Se nos abrirá el navegador predeterminado
+
+  @ Detener proceso en termux
+    $ Ctrl + c 
+
+
