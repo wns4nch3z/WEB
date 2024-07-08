@@ -1,4 +1,4 @@
-
+Descargar termux de FDROID
 INSTALACION DE SISTEMA
 Descargar termux de FDROID
   * Actualizar
