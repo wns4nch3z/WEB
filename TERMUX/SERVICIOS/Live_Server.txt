@@ -1,5 +1,6 @@
 
 INSTALACION DE SISTEMA
+Descargar termux de FDROID
   * Actualizar
     $ apt update
     $ apt upgrade
