@@ -26,7 +26,7 @@ METODO 1
   @ Ingresar una vez dentro de tu carpeta
     $ live-server
   
-      Se abrirá tu navegador predeterminado
+      Se abrirá tu navegador predeterminado o copia la ruta que te da
   
 METODO 2
   @ DESCARGAR LO NECESARIO
