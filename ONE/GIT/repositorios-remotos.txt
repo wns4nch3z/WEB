@@ -1,0 +1,31 @@
+##CLONAR_REPOSITORIOS
+
+REPOSITORIOS REMOTOS
+
+1. Clonar REPOSITORIO
+    $ git clone URL
+2. Muestra el estado de los archivos | Checking the status
+    $ git status
+3. Agregar los cambios | Addingg changes
+    $ git add .     | Agrega todos los cambios
+    $ git add name-file.ext  | Agrega solo archivo específico
+4. Confirmar los cambios | Commiting changes
+    $ git commit -m "Mensaje de commit"
+5. Ver el historial de cambios | Viewing the history
+    $ git log  
+    $ git log --oneline | Mas resumido
+6. Subir cambios al repositorio remoto
+    $ git push -u origin main  | Usar solo en el primer commit establece la rama de seguimiento
+    $ git push  | Envía cambios desde tu repositorio local al remoto sin afectar tu repositorio actual
+7. Actualizar mi repositorio 
+    $ git pull   | Se usa para descargar los cambios remoto y fusionar con tu rama local.
+
+
+NOTA: Al usar "git push -u origin main" en tu primer commit usarás la versión corta git pull y git push
+Al no usar -u tendrás que especificar:
+    - git push origin nombre-rama 
+    - git pull origin nombre-rama
+
+* En cada rama debes hacer "git push -u origin main".
+
+
