@@ -1,0 +1,51 @@
+##CREACION_DE_RAMAS
+##UNIR_RAMAS
+##RESTAURAR_COMMITS
+
+CREAR RAMAS
+1. Ver ramas (BRANCH) existenetes
+    $ git branch    
+2. Cambiar de rama  
+    $ git switch name_de_rama
+3. CREAR NUEVA rama
+    $ git checkout -b crear_nombre_rama
+    * Creación de rama y cambio automático a la rama creada.
+4. Crea, agrega, modifica archivos y carpetas | WORKING DIRECTORY
+5. Agregar los cambios | STATING AREA
+    $ git add .
+    $ git add archivo/carpeta 
+6. Confirmar los cambios  
+    $ git commit -m "Mensaje"
+7. Subir cambios 
+    $ git push -u origin nombre_rama
+
+UNIR RAMAS
+1. Cambiar a la rama main
+    $ git switch main
+2. MEzclar / unir RAMAS
+    $ git merge name_de_rama
+3. Ver lista de commits
+    $ git log --oneline     | Salir con escribiendo "q"
+4. Subir cambios de la unión
+    $ git push origin main
+
+RESTAURAR commits
+1. Ver los commits con su hash(Identificador numérico)
+    $ git log --oneline    
+    Ejemplo
+    c4164e2 Create readme.txt
+    8c6a2f5 Initial commit
+2. Restaurar con hash
+    $ git restore --source numero_hash
+    Ejemplo
+    $ git restore s--source c4164e2
+3. Ver estado
+    $ git status
+4. Guardar cambios
+    $ git add . 
+5. Hacer commit
+    $ git commit -m "Mensaje"
+6. Subir cambios  
+    $ git push
+
+

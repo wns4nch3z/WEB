@@ -8,7 +8,7 @@ REPOSITORIOS REMOTOS
     $ git status
 3. Agregar los cambios | Addingg changes
     $ git add .     | Agrega todos los cambios
-    $ git add name-file.ext  | Agrega solo archivo específico
+    $ git add name-file.ext  | Agrega solo archivo específico carpeta
 4. Confirmar los cambios | Commiting changes
     $ git commit -m "Mensaje de commit"
 5. Ver el historial de cambios | Viewing the history
@@ -26,6 +26,6 @@ Al no usar -u tendrás que especificar:
     - git push origin nombre-rama 
     - git pull origin nombre-rama
 
-* En cada rama debes hacer "git push -u origin main".
+* En cada rama debes hacer "git push -u origin main" una única vez.
 
 

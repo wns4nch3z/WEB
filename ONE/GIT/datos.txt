@@ -1,0 +1,7 @@
+1. Conceptos
+    * WORKING DIRECTORY (Directorio de trabajo)
+        El directorio de trabajo es donde editas, creas, y eliminas archivos. Es la copia visible y editable de tu proyecto. Los cambios en esta área no están automáticamente controlados por Git.
+
+    * STATING AREA (Área de preparación)
+        El área de preparación es como un espacio de borrador donde puedes seleccionar los cambios específicos que deseas incluir en el próximo commit. Aquí es donde "git add" entra en juego: este comando agrega los cambios de archivos desde el directorio de trabajo al área de preparación.
+

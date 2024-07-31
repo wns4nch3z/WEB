@@ -1,0 +1,29 @@
+
+TRABAJAR EN GIT
+
+- No usar caracteres especiales para nombrar carpetas (@, $0)
+- No usar espacios para nombrar carpetas
+- No usar guiones bajos para separar al nombrarlos
+- Solo uso de minúsculas
+- Guión para separar nombres
+
+
+MENSAJE Commit
+- Debe estar escrito tiempo presente imperativo, como si estuvieras dando una orden.
+    Ejemplo:
+    Añade, corrige, elimina, actualiza, refactoriza
+- Beneficios
+    * Facilita el debugging 
+    * Documenta el Historial del Proyecto: Proporciona una documentación útil para entender la evolución del código.
+
+
+ARCHIVO README.md
+
+Usar el lenguaje de marcado markdown
+- Para informaciones necesarias para entender el objetivo y estado del proyecto.
+- Descripción cerca de que trata tu proyecto , cuál es el estado actual, tecnologías usadas
+- Equipo que trabaja en el desarrollo, como contribuir
+
+
+
+

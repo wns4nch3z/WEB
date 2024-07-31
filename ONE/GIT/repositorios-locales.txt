@@ -1,0 +1,27 @@
+##REPOSITORIOS_LOCALES
+
+REPOSITORIO LOCAL
+1. Primer craer nuestra carpeta de proyecto
+    $ mkdir mi-proyecto
+2. Ingresar a mi proyecto
+    $ cd mi-proyecto
+3. Inicializar un repositorio Git (Offline)
+    $ git init
+4. Abrir vscode en carpeta actual 
+    $ code .
+5. Agregar cambios realizados en vscode | STATING AREA
+    $ git add . 
+    o
+    $ git add name-archivo.ext
+6. Crear un README.md  
+    $ git add README.md
+7. Confirmar cambios con un commit
+    $ git commit -m "Mensaje commit"
+8. Cambiar el nombre de la rama master por main
+    $ git branch -M main
+9. Configurar un repositorio remoto
+    $ git remote add origin URL_DEL_REPOSITORIO_REMOTO
+10. Subir cambios
+    $ git push -u origin main
+
+11. 
