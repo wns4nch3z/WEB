@@ -2,4 +2,3 @@
     $ git log --since=1 --until=1day.go
 * Formatear visualización del commit
     $ git log --pretty="format:%h %s"
-

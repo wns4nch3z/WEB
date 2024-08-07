@@ -1,0 +1,61 @@
+
+
+1. HEADER
+    1.1. Concepto:
+        Representa la cabecera del documento.
+    1.2. Características:
+        Puede ir en cualquier lado de la página no solo arriba.
+    1.3.  Usos
+        Suelen contener elementos de navegación global, el logotipo del sitio, el título de la página, y otras partes del encabezado que no son parte del contenido principal.
+
+2. NAV
+    2.1. Concepto:
+        Proporciona enlaces para navegar por las diferentes secciones de la página.
+    2.2. Características:
+        
+    2.3.  Usos
+        
+3. MAIN
+    3.1. Concepto:
+        Representa el contenido principal del documento.
+    3.2. Características:
+        - Solo debe haber un main por página.
+        - Puedemos incluir las etiquetas section, article y a veces aside(no es común).
+    3.3.  Usos
+        - 
+4. SECTION
+    4.1. Concepto:
+        Es un contenedor genérico que agrupa contenido que está relacionado. Cuando creamos bloques cuyo contenido es parte de un bloque total usaremos section.
+    4.2. Características:
+        - Es ideal para estructurar contenido en partes diferenciados.
+        - Debería tener al menos un encabezado (h1-h6) 
+        - Contiene header, article, footer
+    4.3.  Usos
+        -
+5. ARTICLE
+    5.1. Concepto:
+        Define un contenido independiente que puede ser distribuido o reutilizado de forma aislada.
+    5.2. Características:
+        Puede contener un header, footer, section para estructurar su contenido.
+    5.3.  Usos
+        Blog, noticias, o entrada en foros.
+6. ASIDE
+    6.1. Concepto:
+        Se utiliza para definir contenido que está relacionado de manera tangencial con el contenido principal de una página o una sección. Generalmente, se usa para información complementaria que no es esencial para el contenido principal, pero que puede proporcionar contexto o información adicional relevante.
+    6.2. Características:
+        - Se puede usar dentro de un article.
+    6.3.  Usos
+        Publicidad, información adicional o contextual, como citas, enlaces o artículos relacionados, cualquier contenido tangencialmente relacionados con el contenido principal.
+7. FOOTER
+    7.1. Concepto:
+        Define un pie de página para un documento  o una sección.
+    7.2. Características:
+        - Al igual que el header puede ser usado en cualquier parte de la página no solo al final.
+    7.3.  Usos
+        Contiene información al final de la página como derechos de autor, enlaces a políticas de privacidad, y otra información de contacto o legal
+
+
+
+
+
+

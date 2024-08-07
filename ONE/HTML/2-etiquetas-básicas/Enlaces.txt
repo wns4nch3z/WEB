@@ -1,0 +1,58 @@
+
+SINTAXIS DE LA ETIQUETA
+    <a href="RUTA">Dato de la ruta</a>
+
+RUTAS ABSOLUTAS y RELATIVAS
+    * ABSOLUTAS: Tienen un protocolo, http o https y son únicas en la red.
+        Se suelen utilizar en enlaces externos 
+
+    * RELATIVAS: Pueden ser relativas al punto donde nos encontramos o relativas a la raíz del proyecto
+        No usan protocolo como https o http
+
+
+ENLACES INTERNO
+    Este tipo de enlaces hay de dos formas
+    * Si nuestro archivo esta al mismo nivel (en la misma carpeta padre)
+        <a href="./archivo.ext">Dato de la ruta</a>
+        <a href="./carpeta/archivo.ext">Dato de la ruta</a>
+    
+    * Si nuestro archivo esta fuera de la carpeta de donde lo estamos llamando (estamos en una subcarpeta)
+        <a href="../archivo.ext">Dato de la ruta</a>
+        <a href="../carpeta/archivo.ext">Dato de la ruta</a>
+
+ENLACES EXTERNO 
+    Este tipo de enlaces nos lleva a lugares fuera de nuestro sitio web.
+        <a href="https://otrapagina.com/index.html">Dato de la ruta</a>
+
+ENLACES DE ANCLA (MARCADORES)
+    Útil si una página web es muy larga
+    Para crear un un marcador primero cree el marcador y a continuación agregar un enlace a ella.
+
+    Hay dos formas:
+    *  En una misma página
+        - Crear marcador con el atributo id (#)
+            <h2 id="c4"> Capítulo </h2>
+        - Agregar un enlace al marcador
+            <a href="#c4"> Saltar al capítulo 4</a>
+
+    * En otra página
+        - Crear marcador con el atributo id (#)
+            <h2 id="c4"> Capítulo </h2>
+        - Agregar un enlace al marcador desde otra página
+            <a href="./pagina/pagina.html#c4"> Saltar al capítulo 4</a>
+
+
+ATRIBUTOS DE LA ETIQUETA ENLACE (<a>)
+    * TARGET (target="")
+        Valores
+        _self : Es el valor "predeterminado", abre el link en la misma ventana
+        _blank : Abre el link en una ventana diferentes
+        _parent : Abre el documento en el marco principal
+        _top : Abre el documento en el cuerpo completo de la ventana
+    
+    * DOWNLOAD (download)
+        Permite descargar un archivo mediante un enlace
+        <a href="./download/archivo.ext" download>Descargar archivo</a>
+
+
+

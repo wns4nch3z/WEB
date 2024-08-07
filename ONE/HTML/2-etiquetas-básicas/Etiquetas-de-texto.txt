@@ -1,0 +1,70 @@
+
+
+ENCABEZADOS 
+    Se utilizan para organizar la información y hacer que sea más fácil de leer tanto para los usuarios como para los motores de búsqueda.
+
+    Hay hasta 6 ENCABEZADOS
+    <h1></h1> : Es el encabezado más importante y generalmente se usa para el título principal de la página. Cada página debería tener un solo <h1> para definir el tema principal.
+
+    <h2></h2> : Es el encabezado de nivel 2, utilizado para secciones principales dentro del contenido.
+
+    <h3></h3> : Encabezado de nivel 3, utilizado para subsecciones dentro de las secciones definidas por <h2>.
+
+    <h4></h4> : Encabezado de nivel 4, utilizado para subsecciones dentro de <h3>, y así sucesivamente.
+
+    <h5></h5>
+
+    <h6></h6> 
+
+
+    Nota:  Los motores de búsqueda utilizan los encabezados para entender la estructura y el contenido de tu página. Usar encabezados relevantes y bien estructurados puede mejorar tu posicionamiento en los resultados de búsqueda.
+
+PÁRRAFO
+    * SINTAXIS
+        <p> Párrafo </p>
+    * Características
+        - Los navegadores aplican un margen superior e inferior por defecto a los párrafos
+        - No se debe anidar elementos p 
+
+
+FORMATOS DE TEXTO
+    Los elementos de formato se diseñaron para mostrar tipos especiales de TEXTO.
+    Se utilizan para aplicar estilos de texto específicos y tienen distintos significados semánticos y de presentación. 
+
+    * <b> y <strong>
+        Ambos muestran el texto en negrita
+        <b> No tiene valor semántico.
+        <strong> : Tiene valor semántico. Se usa para indicar que el texto dentro de esta etiqueta tiene una importancia o énfasis especial. 
+
+    * <i> y <em>
+        Ambos muestran el texto en cursiva.
+        <i> No tiene valor semántico
+        <em> Tiene valor semántico. Indica que el texto dentro de esta etiqueta debe ser enfatizado, lo que a menudo se traduce en una inflexión vocal al leer el contenido en voz alta. 
+
+    * <mark>
+        Tiene valor semántico.
+        Se usa para marcar texto que es importante o relevante dentro del contenido. El estilo visual por defecto es un fondo amarillo, lo que ayuda a resaltar el texto en cuestión.
+
+    * <small>
+        Se usar para reducir el texto dentro de ella.
+        Aunque su función principal es estilística, también tiene algunas implicaciones semánticas en contextos específicos.
+
+        Uso típico
+        Notas al Pie: Ideal para incluir notas adicionales, advertencias o disclaimers que deben destacarse visualmente pero sin el mismo nivel de prominencia que el texto principal.
+        Información Adicional: Para información que no es el foco principal del contenido, como detalles legales, términos y condiciones, o créditos de autor.
+
+    * <del>
+         Se usa para marcar texto que ha sido eliminado del documento. Es común usar <ins> y <del> juntos para mostrar cambios en versiones revisadas de documentos.
+        
+    * <ins>
+        Se utiliza para marcar texto que ha sido insertado en un documento. Su propósito es destacar cambios que se han realizado en el contenido, como adiciones en un texto revisado o actualizado.
+
+    * <sub>
+        Para texto en subíndice, útil para fórmulas matemáticas y notaciones químicas.
+
+    * <sup> 
+        Para texto en superíndice, usado en potencias y notas al pie.
+
+
+
+
